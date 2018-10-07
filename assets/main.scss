@@ -11,7 +11,7 @@
   span {
     color: $grey-color;
   }
-  span:first-of-type {
+  .post-categories {
     @include relative-font-size(0.7);
     margin-left: auto;
     line-height: 24px;
