@@ -242,6 +242,7 @@
   text-transform: uppercase;
   width: 80px;
   font-size: 14px;
+  font-weight:400;
 
   @include media-query($on-palm) {
     display: none;
