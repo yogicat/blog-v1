@@ -11,15 +11,18 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
     </p>
+    <p class="post-meta meta-categories meta-strong">
+      [{{page.categories}}]
+    </p>
     {%- if page.author -%}
-    <p class="post-meta">Author | <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
-          itemprop="name">{{
+    <p class="post-meta">Author <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card meta-strong" itemprop="name">{{
           page.author }}</span></span>
     </p>
     {%- endif -%}
     {%- if page.ratings -%}
     <p class="post-meta">
-      Ratings | {{page.ratings}}
+      Ratings <span class="meta-strong">{{page.ratings}}</span>
     </p>
     {%- endif -%}
   </header>

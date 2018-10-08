@@ -26,6 +26,8 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  box-sizing: border-box;
+  word-break: keep-all;
 }
 
 
@@ -35,7 +37,7 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
  blockquote, pre,
-ul, ol,li, dl, figure,
+ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
@@ -44,6 +46,9 @@ p {
   margin-bottom: $spacing-unit / 1.4;
 }
 
+li {
+  // margin-bottom: $spacing-unit / 2.4;
+}
 
 /**
  * `main` element
@@ -117,8 +122,7 @@ a {
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: rgb(36, 167, 106);
   }
 
   .social-media-list &:hover {
