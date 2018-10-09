@@ -4,6 +4,12 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
+  name: title
+  label: title
+  description: title
+  config:
+    required: true
+- type: text
   default: ''
   label: categories
   name: categories
@@ -14,3 +20,9 @@ fields:
   label: date
   name: date
   description: date input
+  config:
+    required: true
+- type: text
+  name: layout
+  label: layout
+  default: post
