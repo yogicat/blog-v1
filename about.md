@@ -13,4 +13,4 @@ You can find me on [instagram](https://instagram.com/ohdayoda), [github](https:/
 
 ---
 
-I build this site with [Jekyll](https://jekyllrb.com/) and [Github](https://githu.io). I try to keep this site super simple as possible.
+I built this site with [Jekyll](https://jekyllrb.com/) and [Github](https://githu.io). I try to keep this site super simple as possible.

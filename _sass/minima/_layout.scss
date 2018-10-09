@@ -235,6 +235,10 @@
     & > * {
       padding-right: 20px;
     }
+    @include media-query($on-palm) {
+      flex-direction: column;
+      overflow: hidden;
+    }
   }
 }
 
@@ -257,15 +261,14 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
+  font-size: 13px;
   color: $grey-color;
   margin: 10px 0 !important;
 }
 
 .meta-strong {
-  font-weight: 400;
-  color: #666;
   display: block;
+  font-weight: 700;
 
   @include media-query($on-laptop) {
     display: inline;
@@ -364,6 +367,6 @@
   }
 
   p {
-    max-width: 400px;
+    max-width: 460px;
   }
 }

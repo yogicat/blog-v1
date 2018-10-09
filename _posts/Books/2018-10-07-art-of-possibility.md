@@ -2,12 +2,20 @@
 layout: post
 title:  "The Art of Possiility"
 author: "Rosamund Stone Zander, Benjamin Zander"
-date:   2018-10-07
+date:   2018-01-22
 categories: Books
 ratings: 100
 ---
 
-### thoughts
+
+### book note
+
+<figure class="book-cover">
+  <a href="https://amzn.to/2OIj5s5" target="_blank" rel="noopener">
+    <img width="200" src="https://images-na.ssl-images-amazon.com/images/I/415w87bIPiL.jpg" alt="art of possiility book cover"/>
+  </a>
+</figure>
+
 
 I highly recommend that you read this book with audio book!
 The audio book is read by the original authors and since the book has a lot of music references, listening audio book helped me understand the situation more clearly.
