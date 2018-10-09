@@ -11,11 +11,10 @@ layout: default
       <span class="post-categories">{{ post.categories }}</span>
       <a class="post-link" href="{{ post.url | relative_url }}">
         {{ post.title | escape }}</a>
-      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
     </li>
     {%- endfor -%}
   </ul>
-
   {%- endif -%}
 
 </div>

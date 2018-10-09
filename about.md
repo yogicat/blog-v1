@@ -5,7 +5,10 @@ permalink: /about/
 ---
 
 ![ohda in the bushes](/images/me.jpg)
-Hi, I am Dahe Oh from [Seoul](https://goo.gl/maps/XHPqFJ4B4Dy). I am self-taught front-end developer with a design background. Taking notes and writing journal is one of my great passion. This site is more like a personal archive of my daily thoughts and notes. Sometimes(or most of the time) I write in Korean so bear in mind!
+
+
+
+Hi, I am Dahe Oh from [Seoul](https://goo.gl/maps/XHPqFJ4B4Dy). I am designer turned into a developer. Taking notes is one of my great passion. This site is more like a personal archive of my daily thoughts and notes. Sometimes(or most of the time) I write in Korean so bear in mind!
 
 ---
 

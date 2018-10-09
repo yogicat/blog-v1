@@ -154,9 +154,10 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
+  font-family: $mono-font-family;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: #d6d6d6;
 }
 
 code {
