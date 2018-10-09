@@ -4,11 +4,16 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
+  name: layout
+  label: layout
+  default: post
+- type: text
   name: title
   label: title
   description: title
   config:
     required: true
+  default: ''
 - type: text
   default: ''
   label: categories
@@ -22,7 +27,4 @@ fields:
   description: date input
   config:
     required: true
-- type: text
-  name: layout
-  label: layout
-  default: post
+  default: ''
