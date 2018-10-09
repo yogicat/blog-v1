@@ -14,7 +14,7 @@ The audio book is read by the original authors and since the book has a lot of m
 
 ---
 
-### quotes
+### highlights
 
 The frames sour minds create define-and confine- what we perceive to be possible.
 Enlarge the box, or create another frame around the data, and problems vanish, while new opportunities appear.

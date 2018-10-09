@@ -241,13 +241,21 @@
 .post-categories {
   text-transform: uppercase;
   width: 80px;
-  font-size: 14px;
-  font-weight:400;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 
   @include media-query($on-palm) {
     display: none;
   }
 }
+
+.post-date {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
