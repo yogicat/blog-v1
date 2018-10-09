@@ -1,0 +1,43 @@
+---
+label: Books
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+  default: post
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+  default: book title
+- type: text
+  label: author
+  name: author
+  description: '"Mary Oliver"'
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+  default: 2018-10-08 15:00:00 +0000
+- type: text
+  name: categories
+  label: categories
+  config:
+    required: true
+  default: Books
+- type: text
+  name: ratings
+  label: ratings
+  default: "★★★"
+- type: text
+  name: img
+  label: img
+  description: img src
