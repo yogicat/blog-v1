@@ -4,4 +4,13 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: "/books"
+  default: ''
+  label: categories
+  name: categories
+  description: categories..
+  config:
+    required: true
+- type: datetime
+  label: date
+  name: date
+  description: date input
