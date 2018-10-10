@@ -1,5 +1,5 @@
 ---
-title: " What I found today"
+title: " What I read and found today"
 layout: post
 date: 2018-10-10 14:47:02 +0000
 categories: Writing
