@@ -152,11 +152,11 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
+  @include relative-font-size(0.8);
   font-family: $mono-font-family;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #d6d6d6;
+  background-color: #d4d4d433;
 }
 
 code {
@@ -165,7 +165,8 @@ code {
 
 pre {
   padding: 8px 12px;
-  overflow-x: auto;
+  overflow-x: scroll;
+  max-width: 600px;
 
   > code {
     border: 0;

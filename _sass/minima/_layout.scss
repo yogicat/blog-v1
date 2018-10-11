@@ -262,8 +262,8 @@
   .post-name {
     display: inline-block;
     margin-top: 10px;
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 500;
   }
 }
 
@@ -271,8 +271,9 @@
   text-transform: uppercase;
   width: 80px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.5px;
+  color: #b9b9b9;
 
   @include media-query($on-palm) {
     display: none;
@@ -352,7 +353,7 @@
 }
 
 .post-title {
-  font-size: 18px;
+  // font-size: 18px;
   margin-right: 40px;
 
   @include media-query($on-laptop) {
