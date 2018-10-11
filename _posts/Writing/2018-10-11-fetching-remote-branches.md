@@ -1,5 +1,5 @@
 ---
-title: "git: fetching all remote branches"
+title: "Git: fetching all remote branches"
 layout: post
 date: 2018-10-11
 categories: Learning
@@ -9,19 +9,12 @@ I was watching and following online workshop on the [Frontend Masters](https://f
 
 ..
 
-**Fetch**
-`$ git fetch origin`
 
-`git fetch` only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files.
-
-
-**Pull**
-`$ git pull origin master`
-
-`git pull`, updates your current HEAD branch with the latest changes from the remote server. This means that pull not only downloads new data; it also directly **integrates** it into your current working copy files.
-
-
-
+```
+git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+git fetch --all
+git pull --all
+```
 
 To update local branches which track remote branches
  `git pull --all`
@@ -30,15 +23,23 @@ To track all remote branches
 `git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done`
 
 
+
 ---
 
-**Recap**
+#### Fetch and Pull
 
-```
-git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
-git fetch --all
-git pull --all
-```
+**Fetch**
+
+`$ git fetch origin`
+
+`git fetch` only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files.
+
+
+**Pull**
+
+`$ git pull origin master`
+
+`git pull`, updates your current HEAD branch with the latest changes from the remote server. This means that pull not only downloads new data; it also directly **integrates** it into your current working copy files.
 
 
 ..

@@ -227,11 +227,12 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit/2;
+    // margin-bottom: $spacing-unit/2;
+    line-height: 2.2;
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    border-bottom: 1px solid #b7b7b7;
+    // border-bottom: 1px solid #b7b7b7;
 
     & > * {
       padding-right: 20px;
@@ -273,7 +274,7 @@
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  color: #b9b9b9;
+  color: #0000008a;
 
   @include media-query($on-palm) {
     display: none;
@@ -284,7 +285,7 @@
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.5px;
-  color: #999;
+  color: #0000008a;
 }
 
 .post-author {
@@ -301,7 +302,7 @@
 
 .meta-strong {
   display: block;
-  font-weight: 700;
+  font-weight: 600;
 
   @include media-query($on-laptop) {
     display: inline;
@@ -355,6 +356,7 @@
 .post-title {
   // font-size: 18px;
   margin-right: 40px;
+  line-height: 1.5;
 
   @include media-query($on-laptop) {
     margin-right: initial;
