@@ -1,11 +1,10 @@
 ---
-title: "Today I listened Olafur Arnalds"
+title: Today I listened to Olafur Arnalds
 layout: post
-date: 2018-10-11
+date: 2018-10-11 00:00:00 +0000
 categories: Music
+
 ---
-
-
 <iframe width="100%" max-width="560" height="315" src="https://www.youtube-nocookie.com/embed/TpO_8tk6yNQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
