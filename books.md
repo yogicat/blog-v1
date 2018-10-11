@@ -13,9 +13,9 @@ permalink: /books/
         <img width="160" src="{{ post.img }}" />
         <span class="post-name">{{ post.title | escape }}</span>
       </a>
-      <span class="post-date">{{ post.ratings }}</span>
       <span class="post-date post-author">by {{ post.author }}</span>
       <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+      <span class="post-date">{{ post.ratings }}</span>
     </li>
     {%- endfor -%}
   </ul>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Art of Possiility"
+title:  "The Art of Possibility"
 author: "Rosamund Stone Zander, Benjamin Zander"
 date:   2018-01-22
 categories: Books
