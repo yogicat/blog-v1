@@ -5,7 +5,7 @@ author: "Rosamund Stone Zander, Benjamin Zander"
 date:   2018-01-22
 categories: Books
 img: "https://images-na.ssl-images-amazon.com/images/I/415w87bIPiL.jpg"
-ratings: ★★★
+ratings: ★★★★★
 ---
 
 [![go to amazon](https://images-na.ssl-images-amazon.com/images/I/415w87bIPiL.jpg)](https://amzn.to/2OIj5s5)

@@ -5,7 +5,7 @@ author: "Mary Oliver"
 date:   2018-01-22
 categories: Books
 img: "http://t1.daumcdn.net/book/KOR9788960901551?moddttm=20180915082419"
-ratings: ★★★
+ratings: ★★★★★
 ---
 
 [![책 표지](http://t1.daumcdn.net/book/KOR9788960901551?moddttm=20180915082419)](http://book.daum.net/detail/book.do?bookid=KOR9788960901551)
