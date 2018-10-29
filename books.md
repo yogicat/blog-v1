@@ -10,7 +10,7 @@ permalink: /books/
     {%- for post in site.categories.Books -%}
     <li>
       <a class="post-link" href="{{ post.url | relative_url }}">
-        <img width="160" src="{{ post.img }}" />
+        <img width="160" height="240" src="{{ post.img }}" />
         <span class="post-name">{{ post.title | escape }}</span>
       </a>
       <span class="post-date post-author">by {{ post.author }}</span>
