@@ -9,12 +9,11 @@ permalink: /books/
   <ul class="post-list">
     {%- for post in site.categories.Books -%}
     <li>
+      <span class="post-date">{{ post.date | date: "%Y.%m" }}</span>
       <a class="post-link" href="{{ post.url | relative_url }}">
-        <img width="160" height="240" src="{{ post.img }}" />
         <span class="post-name">{{ post.title | escape }}</span>
       </a>
-      <span class="post-date post-author">by {{ post.author }}</span>
-      <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+      <span class="post-date post-author">{{ post.author }}</span>
       <span class="post-date">{{ post.ratings }}</span>
     </li>
     {%- endfor -%}

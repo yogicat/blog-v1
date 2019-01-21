@@ -1,10 +1,9 @@
 /**
  * Site header
  */
-.site-header {
 
-  min-height: $spacing-unit * 1.865;
-  // Positioning context for the mobile navigation icon
+.site-header {
+  min-height: $spacing-unit * 1.865; // Positioning context for the mobile navigation icon
   position: relative;
   margin-bottom: $spacing-unit * 3;
 }
@@ -15,38 +14,39 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: 1px;
   margin-bottom: 0;
-  padding: 0 20px;
+  padding-left: 15px;
+  margin: 0 10px;
   position: relative;
   color: $grey-color-dark;
-
   &:first-of-type {
     padding-left: 0;
   }
-
-  &.home  {
+  &.home {
     font-weight: 600;
   }
-
   &:hover {
     color: rgb(36, 167, 106);
   }
-
   &.active {
-    text-decoration: underline;
     color: rgb(36, 167, 106);
+    font-weight: 600;
     &::before {
-      content: '⇠';
-      color: rgb(36, 167, 106);
+      content: '';
+      width: 80%;
+      height: 2px;
       position: absolute;
-      right: -3px;
+      background: rgb(36, 167, 106);
       font-size: 20px;
+      top: 70%;
     }
   }
 }
 
 .nav-menus {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
+  max-width: 600px;
   @include media-query($on-palm) {
     border-bottom: 1px solid silver;
   }
@@ -55,25 +55,19 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
-
   .nav-trigger {
-      display: none;
+    display: none;
   }
-
   .menu-icon {
     display: none;
   }
-
   .page-link {
     color: $text-color;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
+    line-height: $base-line-height; // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
     }
   }
-
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
@@ -82,7 +76,6 @@
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
-
     label[for="nav-trigger"] {
       display: block;
       float: right;
@@ -91,7 +84,6 @@
       z-index: 2;
       cursor: pointer;
     }
-
     .menu-icon {
       display: block;
       float: right;
@@ -100,26 +92,21 @@
       line-height: 0;
       padding-top: 10px;
       text-align: center;
-
-      > svg {
+      >svg {
         fill: $grey-color-dark;
       }
     }
-
-    input ~ .trigger {
+    input~.trigger {
       clear: both;
       display: none;
     }
-
-    input:checked ~ .trigger {
+    input:checked~.trigger {
       display: block;
       padding-bottom: 5px;
     }
-
     .page-link {
       display: block;
       padding: 5px 10px;
-
       &:not(:last-child) {
         margin-right: 0;
       }
@@ -134,11 +121,10 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
+
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
@@ -170,29 +156,28 @@
 
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
   }
-
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -200,15 +185,14 @@
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
-
-
 
 /**
  * Page content
  */
+
 .page-content {
   padding: $spacing-unit 0;
   flex: 1 0 auto;
@@ -226,29 +210,23 @@
   margin-left: 0;
   list-style: none;
   font-weight: 400;
-
-  > li {
+  >li {
     // margin-bottom: $spacing-unit/2;
     line-height: 2.2;
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
-    // border-bottom: 1px solid #b7b7b7;
-
-    & > * {
+    align-items: baseline; // border-bottom: 1px solid #b7b7b7;
+    &>* {
       padding-right: 20px;
     }
-
     @include media-query($on-laptop) {
       // flex-direction: column;
       overflow: hidden;
       padding: $spacing-unit/4 0;
       border-bottom: 1px solid #b7b7b7;
-
       .post-date {
-        order: -1;
+        // order: -1;
       }
-
       .post-link {
         width: 100%;
       }
@@ -256,40 +234,36 @@
   }
 }
 
-.books {
-  .post-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-
-    @include media-query($on-palm) {
-      justify-content: center;
-    }
-
-
-    li {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      flex-direction: column;
-      width: 100%;
-      max-width: 200px;;
-      min-height: 420px;
-      border: 0;
-      @include media-query($on-laptop) {
-        // margin: 0;
-        // width: 50%;
-      }
-    }
-  }
-  .post-name {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 13px;
-    font-weight: 500;
-  }
-}
-
+// .books {
+//   .post-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: flex-start;
+//     @include media-query($on-palm) {
+//       justify-content: center;
+//     }
+//     li {
+//       display: flex;
+//       flex-wrap: wrap;
+//       align-items: baseline;
+//       flex-direction: column;
+//       width: 100%;
+//       max-width: 200px;;
+//       min-height: 420px;
+//       border: 0;
+//       @include media-query($on-laptop) {
+//         // margin: 0;
+//         // width: 50%;
+//       }
+//     }
+//   }
+//   .post-name {
+//     display: inline-block;
+//     margin-top: 10px;
+//     font-size: 13px;
+//     font-weight: 500;
+//   }
+// }
 .post-categories {
   text-transform: uppercase;
   width: 80px;
@@ -297,7 +271,6 @@
   font-weight: 500;
   letter-spacing: 0.5px;
   color: #0000008a;
-
   @include media-query($on-palm) {
     display: none;
   }
@@ -311,9 +284,7 @@
 }
 
 .post-author {
-  @include media-larger-than($on-desktop) {
-
-  }
+  @include media-larger-than($on-desktop) {}
 }
 
 .post-meta {
@@ -325,7 +296,6 @@
 .meta-strong {
   display: block;
   font-weight: bolder;
-
   @include media-query($on-laptop) {
     display: inline;
   }
@@ -337,17 +307,14 @@
 
 .post-link {
   display: block;
-  flex: 1 0 auto;
-  // @include relative-font-size(1.5);
+  flex: 1 0 auto; // @include relative-font-size(1.5);
   // font-weight: 600;
 }
-
 
 .post {
   display: flex;
   flex-direction: row;
   position: relative;
-
   @include media-query($on-laptop) {
     flex-direction: column;
     flex-wrap: wrap;
@@ -357,17 +324,17 @@
 /**
  * Posts
  */
+
 .post-header {
   margin-bottom: $spacing-unit;
   flex: 0 1 240px;
   padding-right: 30px;
-
   @include media-query($on-laptop) {
     width: 100%;
     flex: initial;
-    padding-right: initial;;
+    padding-right: initial;
+    ;
   }
-
   @include media-larger-than($on-laptop) {
     position: sticky;
     top: 100px;
@@ -379,7 +346,6 @@
   // font-size: 18px;
   margin-right: 40px;
   line-height: 1.5;
-
   @include media-query($on-laptop) {
     margin-right: initial;
   }
@@ -388,7 +354,6 @@
 .post-content h1 {
   @include relative-font-size(1.8);
   line-height: 1;
-
   @include media-query($on-laptop) {
     @include relative-font-size(1.6);
   }
@@ -397,45 +362,33 @@
 .post-content {
   margin-bottom: $spacing-unit;
   flex: 0 1 600px;
-
-  @include media-query($on-laptop) {
-
-  }
-
+  @include media-query($on-laptop) {}
   a {
     text-decoration: underline;
   }
-
   h2 {
     @include relative-font-size(1.6);
-
     @include media-query($on-laptop) {
       @include relative-font-size(1.5);
     }
   }
-
   h3 {
     @include relative-font-size(1.4);
-
     @include media-query($on-laptop) {
       @include relative-font-size(1.3);
     }
   }
-
   h4 {
     @include relative-font-size(1.25);
-
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
   }
-
   p {
     max-width: 560px;
   }
 }
 
 .about-content {
-  font-size: 18px;
-  // font-weight: 700;
+  font-size: 18px; // font-weight: 700;
 }

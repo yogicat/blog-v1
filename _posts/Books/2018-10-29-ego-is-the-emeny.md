@@ -4,14 +4,9 @@ title:  "Ego is the enemy"
 author: "Ryan Holiday"
 date:   2018-10-29
 categories: Books
-img: "https://images-na.ssl-images-amazon.com/images/I/41gED2-t4oL._SX352_BO1,204,203,200_.jpg"
 ratings: ★★★★
 ---
 
-[![book cover](https://images-na.ssl-images-amazon.com/images/I/41gED2-t4oL._SX352_BO1,204,203,200_.jpg)](https://amzn.to/2Dbpre3)
-{: .book-cover}
-
----
 
 
 It’s a temptation that exists for everyone—for talk and hype to replace action.

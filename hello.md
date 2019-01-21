@@ -16,6 +16,7 @@ Taking notes is one of my great passion. This site is more like a personal archi
 {: .about-content}
 You can find me on [instagram](https://instagram.com/ohdayoda), [github](https://github.com/yogicat), or [linkedin](https://linkedin.com/in/dahe-oh-019b02151/). Feel free to contact me via email <dahe.oh@gmail.com>.
 
+
 ---
 
 {: .about-content}
