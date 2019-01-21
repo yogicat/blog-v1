@@ -234,36 +234,6 @@
   }
 }
 
-// .books {
-//   .post-list {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: flex-start;
-//     @include media-query($on-palm) {
-//       justify-content: center;
-//     }
-//     li {
-//       display: flex;
-//       flex-wrap: wrap;
-//       align-items: baseline;
-//       flex-direction: column;
-//       width: 100%;
-//       max-width: 200px;;
-//       min-height: 420px;
-//       border: 0;
-//       @include media-query($on-laptop) {
-//         // margin: 0;
-//         // width: 50%;
-//       }
-//     }
-//   }
-//   .post-name {
-//     display: inline-block;
-//     margin-top: 10px;
-//     font-size: 13px;
-//     font-weight: 500;
-//   }
-// }
 .post-categories {
   text-transform: uppercase;
   width: 80px;
