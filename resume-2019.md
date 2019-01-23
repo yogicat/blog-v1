@@ -41,7 +41,7 @@ I am always learning, always evolving and moving.
 ---
 
 **SIDE PROJECTS**
-- **[HEY&YAY](htps://heyandyay.com):** Design Temaplte kits service. Overall development, design and managing.
+- **[HEY&YAY](https://heyandyay.com/):** Design Temaplte kits service. Overall development, design and managing.
 - **[Kill Me Calendar](https://tumblbug.com/killmecal):** Design product crowdsouring project. Github style heat-map inspired motivational calendar for 2019. 575% funded project. more on the website - [killmecalendar.com](https://killmecalendar.com)
 - **[Descro](https://github.com/colus001/descro):**  Decentralized escrow service to provide ethereum based safe transaction between peers. Assisted in front end development  and design. Part of a crypto-on-the-beach hackathon project.
 - **[Angomi](https://github.com/yogicat/you-are-not-a-solitary-gourmet):** Open source event creator(similar to meet up but more focused on eating together) between co-workers. Assisted in overall front end development, and design.
