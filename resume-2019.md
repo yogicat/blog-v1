@@ -1,5 +1,10 @@
 <p style="font-size:2.4rem">Dahe Oh</p>
 Front end developer with a wide range of design experience.
+or Designer with a passion for web development.
+
+
+I am always learning, always evolving and moving.
+
 
 
 <small>Seoul, South Korea |
@@ -14,7 +19,7 @@ Front end developer with a wide range of design experience.
 ---
 
 **WORK EXPERIENCE**
-- **Front End Developer, Stremi** - May/2018  - present - Seoul
+- **Front End Developer, Stremi** - May/2018  - Dec/2018 - Seoul
   - Supported enhancements and provided maintenance to current services for cryptocurrency exchange Gopax Korea and Gopax Global
   - Assisted in developing a deposit request process for crypto vault service using React, Redux, and TypeScript
   - Assisted in developing an admin site for managing and editing the crypto assets using CRA, TypeScript and, Redux
@@ -31,11 +36,13 @@ Front end developer with a wide range of design experience.
 - **Previous Experiences:**
   - Interior Designer for B&A design communication, 2 years in 2013 - 2015
   - Intern for Cho+Helo Architecture, 6 months in 2013
-Volunteer for UNESCO Zambia Workshop, 4 weeks in 2013
+  - Volunteer for UNESCO Zambia Workshop, 4 weeks in 2013
 
 ---
 
 **SIDE PROJECTS**
+- **[HEY&YAY](htps://heyandyay.com):** Design Temaplte kits service. Overall development, design and managing.
+- **[Kill Me Calendar](https://tumblbug.com/killmecal):** Design product crowdsouring project. Github style heat-map inspired motivational calendar for 2019. 575% funded project. more on the website - [killmecalendar.com](https://killmecalendar.com)
 - **[Descro](https://github.com/colus001/descro):**  Decentralized escrow service to provide ethereum based safe transaction between peers. Assisted in front end development  and design. Part of a crypto-on-the-beach hackathon project.
 - **[Angomi](https://github.com/yogicat/you-are-not-a-solitary-gourmet):** Open source event creator(similar to meet up but more focused on eating together) between co-workers. Assisted in overall front end development, and design.
 
@@ -52,4 +59,10 @@ Volunteer for UNESCO Zambia Workshop, 4 weeks in 2013
 
 
 **DESIGN SKILLS**
-- Sketch, Framer, Figma, Rhino, Grasshopper, Cinema 4D, Processing
+- Sketch, Framer, Figma, Adobe CC, Rhino, Grasshopper, Cinema 4D, Processing
+
+
+---
+
+FYI, I love trying out new tools and new things all the time.
+I am curious as Curious George!
