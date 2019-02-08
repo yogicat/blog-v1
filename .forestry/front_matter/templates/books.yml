@@ -41,5 +41,3 @@ fields:
   name: img
   label: img
   description: img src
-pages:
-- make-bootstraping.md
